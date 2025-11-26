@@ -13,3 +13,6 @@ This uses the Meta all in one VR SDK
 
 If you look at the class UdpListener, you can also see that it listens for UDP packets on the 2910 port.
 Technically, the HeartRateMonitor just listens for UDP updates, and then parses out anything that is a pure int value. So you can use any UDP into message to drive the lamp.
+
+I'm using this script with this :
+https://github.com/sharramon/Heartrate_ESP32_UDP
